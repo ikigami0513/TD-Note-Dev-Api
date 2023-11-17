@@ -1,0 +1,66 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Confirmation | Ynov Boutique</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="confirmation.js"></script>
+    </head>
+    <body class="bg-gray-100">
+        <nav class="bg-blue-500 p-4">
+            <div class="container mx-auto flex items-center justify-between">
+                <div class="flex items-center">
+                    <span class="text-white text-xl font-semibold">Ynov Boutique</span>
+                </div>
+                
+                <div class="flex items-center">
+                    <a href="index.html" class="text-white text-xl px-4 py-2">Accueil</a>
+                    <a href="panier.html" class="text-white text-xl px-4 py-2">Panier</a>
+                </div>
+            </div>
+        </nav>
+
+        <form method="POST" action="">
+            <div class="container mx-auto mt-8">
+                <div class="flex w-full">
+                    <div class="mr-2 w-1/3">
+                        <label for="firstName" class="block text-gray-700 text-sm font-bold mb-2">Nom :</label>
+                        <input id="firstName" type="text" placeholder="Entrez votre nom ici." class="block w-full bg-white border border-gray-300 px-4 py-2 rounded leading-tight focus:outline-none focus:shadow-outline-blue focus:border-blue-300">
+                    </div>
+        
+                    <div class="w-1/3">
+                        <label for="lastName" class="block text-gray-700 text-sm font-bold mb-2">Prénom :</label>
+                        <input id="lastName" type="text" placeholder="Entrez votre prénom ici." class="block w-full bg-white border border-gray-300 px-4 py-2 rounded leading-tight focus:outline-none focus:shadow-outline-blue focus:border-blue-300">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto mt-8">
+                <div class="flex w-full">
+                    <div class="w-2/3">
+                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Adresse mail :</label>
+                        <input id="email" type="email" placeholder="Entrez votre adresse mail ici." class="block w-full bg-white border border-gray-300 px-4 py-2 rounded leading-tight focus:outline-none focus:shadow-outline-blue focus:border-blue-300">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto mt-8">
+                <div class="flex w-full">
+                    <div class="mr-2 w-1/3">
+                        <label for="address" class="block text-gray-700 text-sm font-bold mb-2">Adresse :</label>
+                        <input id="address" type="text" placeholder="Entrez votre adresse ici." class="block w-full bg-white border border-gray-300 px-4 py-2 rounded leading-tight focus:outline-none focus:shadow-outline-blue focus:border-blue-300">
+                    </div>
+        
+                    <div class="w-1/3">
+                        <label for="city" class="block text-gray-700 text-sm font-bold mb-2">Ville :</label>
+                        <input id="city" type="text" placeholder="Entrez votre ville ici." class="block w-full bg-white border border-gray-300 px-4 py-2 rounded leading-tight focus:outline-none focus:shadow-outline-blue focus:border-blue-300">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto mt-8">
+                <button id="submit" type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Confirmer</button>
+            </div>
+        </form>
+    </body>
+</html>
